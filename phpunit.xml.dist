@@ -1,0 +1,12 @@
+<!-- Have your own bootstrap file? Change bootstrap attribute -->
+<phpunit
+    bootstrap="vendor/osotov/phpunit-for-bitrix/bootstrap.php"
+    colors="true"
+>
+    <testsuites>
+        <testsuite name="Test suit">
+            <!-- Set unit tests directory here -->
+            <directory>test/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

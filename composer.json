@@ -1,0 +1,22 @@
+{
+    "name": "osotov/phpunit-for-bitrix",
+    "description": "Base test class for unit tests inside 1C-Bitrix framework environment",
+    "authors": [
+        {
+            "name": "Mikhail Osotov",
+            "email": "reghan7@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Osotov\\PhpunitForBitrix\\": "src/"
+      },
+      "files": ["bootstrap.php"]
+    },
+    "require": {
+      "php": ">=5.5.9",
+      "phpunit/phpunit": "4.7.*",
+      "mockery/mockery": "0.9.*",
+      "fzaninotto/faker": "1.*"
+    }
+}
