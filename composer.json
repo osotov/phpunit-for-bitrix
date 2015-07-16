@@ -7,6 +7,9 @@
             "email": "reghan7@gmail.com"
         }
     ],
+    "keywords": ["bitrix", "phpunit"],
+    "homepage": "https://github.com/osotov/phpunit-for-bitrix",
+    "license": "MIT",
     "autoload": {
       "psr-4": {
         "Osotov\\PhpunitForBitrix\\": "src/"
