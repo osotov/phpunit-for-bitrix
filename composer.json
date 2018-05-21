@@ -18,8 +18,7 @@
     "autoload": {
       "psr-4": {
         "Dcode\\Bitrix\\": "src/"
-      },
-      "files": ["bootstrap.php"]
+      }
     },
     "require": {
       "php": ">=5.5.9",
