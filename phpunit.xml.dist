@@ -1,6 +1,6 @@
 <!-- Have your own bootstrap file? Change bootstrap attribute -->
 <phpunit
-    bootstrap="vendor/osotov/phpunit-for-bitrix/bootstrap.php"
+    bootstrap="vendor/dcodeteam/phpunit-for-bitrix/bootstrap.php"
     colors="true"
 >
     <testsuites>
