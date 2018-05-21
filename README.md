@@ -16,7 +16,7 @@ To install package, run the command below and you will get the latest
 version
 
 ```sh
-composer require dcode/phpunit-for-bitrix
+composer require dcodeteam/phpunit-for-bitrix
 ```
 
 Copy phpunit.xml.dist file from package to document root.
