@@ -1,6 +1,6 @@
 <?php
 
-namespace Osotov\PhpunitForBitrix;
+namespace Dcode\Bitrix;
 
 /**
  * Test Case class with some tweaks for usage in 1C-Bitrix framework.
@@ -8,7 +8,7 @@ namespace Osotov\PhpunitForBitrix;
  *
  * Class BitrixTestCase
  */
-class BitrixTestCase extends \PHPUnit_Framework_TestCase
+class TestCase extends \PHPUnit_Framework_TestCase
 {
     /**
      * @var bool
