@@ -1,10 +1,14 @@
 # phpunit-for-bitrix
 
+Based on [osotov/phpunit-for-bitrix](https://github.com/osotov/phpunit-for-bitrix).
+
 Base test class for unit tests inside 1C-Bitrix framework environment
 
 ## note
 
-This package requires latest versions of php (>= 5.5.9).
+This package requires latest versions of php (>= 5.5.9) and phpunit (>=4.7.0 <7.0.0)
+
+It might work fine with latest versions (7+) but was tested only with phpunit ^6 (_6.5.8_).
 
 ## installation
 
@@ -12,7 +16,7 @@ To install package, run the command below and you will get the latest
 version
 
 ```sh
-composer require osotov/phpunit-for-bitrix
+composer require dcodeteam/phpunit-for-bitrix
 ```
 
 Copy phpunit.xml.dist file from package to document root.
@@ -21,8 +25,10 @@ If you want to use another bootstrap file set it instead default inside bootstra
 
 ## usage
 
-To use this package extend \Osotov\PhpunitForBitrix\BitrixTestCase with your test class.
- 
-This package uses awesome mock framework Mockery to ease mock and stub creation.
+If you use _old phpunit_ (>5.0.0) extend `Dcode\Bitrix\TestCase` class in 
+your test cases.
 
-Additionally package uses Faker to help you with creation of dummy data.
+This class uses mock framework Mockery to ease mock and stub creation and it uses Faker to help you with creation of
+dummy data.
+ 
+For new php unit (>=5.0.0) use `\PHPUnit\Framework\TestCase`.

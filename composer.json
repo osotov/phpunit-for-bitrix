@@ -1,25 +1,29 @@
 {
-    "name": "osotov/phpunit-for-bitrix",
-    "description": "Base test class for unit tests inside 1C-Bitrix framework environment",
+    "name": "dcodeteam/phpunit-for-bitrix",
+    "type": "library",
+    "description": "Based on https://github.com/osotov/phpunit-for-bitrix. Base test class for unit tests inside 1C-Bitrix framework environment",
     "authors": [
         {
             "name": "Mikhail Osotov",
             "email": "reghan7@gmail.com"
+        },
+        {
+            "name": "Alexander Lushnikov",
+            "email": "alegz@dcode.team"
         }
     ],
     "keywords": ["bitrix", "phpunit"],
-    "homepage": "https://github.com/osotov/phpunit-for-bitrix",
+    "homepage": "https://github.com/dcodeteam/phpunit-for-bitrix",
     "license": "MIT",
     "autoload": {
       "psr-4": {
-        "Osotov\\PhpunitForBitrix\\": "src/"
-      },
-      "files": ["bootstrap.php"]
+        "Dcode\\Bitrix\\": "src/"
+      }
     },
     "require": {
       "php": ">=5.5.9",
-      "phpunit/phpunit": "4.7.*",
-      "mockery/mockery": "0.9.*",
+      "phpunit/phpunit": ">=4.7.0",
+      "mockery/mockery": ">=0.9.0",
       "fzaninotto/faker": "1.*"
     }
 }
